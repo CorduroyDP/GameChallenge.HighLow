@@ -1,0 +1,55 @@
+<html>
+<head>
+  <link type="text/css" href="HL.css" rel="stylesheet">
+  <link href="bootstrap.css" rel="stylesheet" type="text/css">
+  <script src="jquery-2.1.4.js"></script>
+  <script src="HL.js"></script>
+ </head>
+ <body>
+  <div id="container-fluid">
+      <div id="home">
+      <div id="intro">
+        <h1> Lets Play High Low</h1>
+      </div>
+      <div class="row" id="main">
+      <div class="col-md-6" id="rules">
+        <h2> The Rules of the Game </h2>
+        <ul>
+          <li>Pick a number between 1-100(inclusive)</li>
+          <li>You get 7 attempts</li>
+          <li>You may only pick whole numbers</li>
+        </ul>
+
+        <!-- <h3>We'll keep track of your guesses below:</h3> -->
+        <!-- This is where the array of attempts will go -->
+        <h1> Good Luck!</h1>
+      </div>
+      <div class="col-md-6"id="guessBox">
+        <h2>What's your guess?</h2>
+        <form>
+          <input id="guessNumber" class="form-control" type="text"  id="myTextBox" autofocus/>
+        </form>
+            <button type="submit" class="btn" id="guess">I'm Feeling Lucky</button>
+      </div>
+    </div>
+    </div>
+  <div id="winner">
+    <h1> CONGRATULATIONS!</h1>
+    <h2> You've guessed correctly!</h2>
+    <br>
+    <button type="submit" class="btnW" id="winAgain">Play Again</button>
+  </div>
+  <div id="loser">
+    <h1> You Lose!</h1>
+    <button type="submit" class="btnL" id="playAgain">Play Again</button>
+  </div>
+
+  <div id="badGuess">
+
+    <h1 class="badGuessAlert"></h1>
+    <br>
+    <button type="submit" class="btnG" id="returnHome">Guess Again</button>
+  </div>
+  </div>
+</body>
+</html>

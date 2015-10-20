@@ -1,0 +1,91 @@
+#winner {
+  display: none;
+  background-image: url("http://vignette4.wikia.nocookie.net/priceisright/images/4/4b/TPIR37-40door2.gif/revision/latest?cb=20140628164446");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#winner,#playAgain {
+  background-color: rgba(222, 211, 193, 0.5);
+  text-align: center;
+  padding-top: 200px;
+  color:white;
+  font-size: 100px;
+}
+#winner h1{
+  font-size: 150px;
+  background-color: rgba(222, 211, 193, 0.9);
+}
+#winner h2{
+  font-size: 150px;
+  background-color: rgba(222, 211, 193, 0.9);
+}
+#badGuess {
+  display: none;
+  background-image: url("https://metrouk2.files.wordpress.com/2015/02/family-feud-gerbil-2.jpg?quality=80&strip=all&w=1000&h=600");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.badGuessAlert{
+  font-size: 200px;
+
+  text-align: center;
+  color: white;
+}
+#intro {
+  text-align: center;
+  color: blue;
+  font-size: 100px
+}
+#rules{
+  text-align: center;
+  background-color: rgba(222, 211, 193, 0.5);
+  height: 50%;
+  width: 40%;
+  padding-left: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px dashed black;
+
+
+
+
+}
+#guessBox {
+  text-align: center;
+  border: 2px dashed black;
+  padding-top: 100px;
+}
+#home {
+  background-image: url("http://hunt4freebies.com/sweepstakes/wp-content/uploads/2014/04/High-Low-Game.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:100%;
+  height: 100vh;
+  /*align-content: center;*/
+  background-position: center;
+}
+
+#loser {
+    display: none;
+  background-image: url("http://cdn.thedailybeast.com/content/dailybeast/articles/2015/06/22/how-much-is-trump-is-really-worth/jcr:content/image.crop.800.500.jpg/1435066755626.cached.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  text-align: center;
+
+}
+#loser h1{
+  color: white;
+  font-size: 300px;
+  padding-top: 0px;
+}
+#loser #playAgain{
+  font-size: 50px;
+}
+#main {
+  padding-top: 50px;
+}
